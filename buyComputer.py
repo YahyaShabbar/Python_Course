@@ -3,7 +3,7 @@ availableParts = ["Computer", "Monitor", "Keyboad", "Mouse", "Mouse Mat", "HDMI 
 # validChoices = [str(i) for i in range(1, len(available_parts) + 1)]
 
 validChoices = []
-for i in range(1, len(availableParts) + 1):
+for i in range(1, len(availableParts) + 1): 
     validChoices.append(str(i))
 
 print(validChoices)
