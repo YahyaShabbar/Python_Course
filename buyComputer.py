@@ -19,7 +19,7 @@ while currentChoice != '0':
         if chosenPart in computerParts:
             # it's already in there
             print("Removing {}".format(currentChoice))
-            computerParts.remove(chosenPart)
+            computerParts.remove(chosenPart) 
             
         else:
             print("Adding {}".format(currentChoice))
