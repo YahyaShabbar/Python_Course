@@ -14,3 +14,7 @@ flowers = [
 separator = ", "
 output = separator.join(flowers)
 print(output)
+
+# OR
+
+print(", ".join(flowers))
